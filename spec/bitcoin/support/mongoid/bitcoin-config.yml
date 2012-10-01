@@ -1,0 +1,10 @@
+ all:
+   network: bitcoin
+   storage: mongoid
+   host: 127.0.0.1
+   port: 27001
+ blockchain:
+   max:
+     connect: 30
+ wallet:
+   keystore: "simple::file=keys.json"
